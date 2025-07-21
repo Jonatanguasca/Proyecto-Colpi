@@ -16,7 +16,7 @@
       <!-- Breadcrumbs -->
       <section 
         class="section section-bredcrumbs"
-        style="background-image: url(images/servicios.jpg); background-repeat:no-repeat; background-size: 100%;"
+        style="--bg-image: url(../images/servicios.jpg);"
       >
         <div class="container context-dark breadcrumb-wrapper" >
           <h1>Servicios</h1>

@@ -15,7 +15,7 @@
       <?php include 'partials/layout/header.php'; ?>
 
       <!-- Breadcrumbs -->
-      <section class="section section-bredcrumbs"style="background-image: url(images/estructuras.jpg); background-repeat:no-repeat; background-size: 100%; background-position: center;">
+      <section class="section section-bredcrumbs"style="--bg-image: url(../images/estructuras.jpg);">
         <div class="container context-dark breadcrumb-wrapper" >
           <h1>Estructuras metálicas</h1>
           <ul class="breadcrumbs-custom">

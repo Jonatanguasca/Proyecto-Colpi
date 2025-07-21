@@ -14,7 +14,7 @@
     <div class="page">
       <?php include 'partials/layout/header.php'; ?>
       <!-- Breadcrumbs -->
-      <section class="section section-bredcrumbs"style="background-image: url(images/transmision.jpg); background-repeat:no-repeat; background-size: 100%; background-position: center;">
+      <section class="section section-bredcrumbs"style="--bg-image:  url(../images/transmision.jpg);">
         <div class="container context-dark breadcrumb-wrapper" >
           <h1>Transmisi&oacute;n de potencia</h1>
           <ul class="breadcrumbs-custom">

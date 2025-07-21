@@ -14,7 +14,7 @@
   <div class="page">
     <?php include 'partials/layout/header.php'; ?>
     <!-- Breadcrumbs -->
-    <section class="section section-bredcrumbs" style="background-image: url(images/mecanizados.jpg); background-repeat:no-repeat; background-size: 100%;">
+    <section class="section section-bredcrumbs" style="--bg-image: url(../images/mecanizados.jpg);">
       <div class="container context-dark breadcrumb-wrapper" >
         <h1>Mecanizados Pesados</h1>
         <ul class="breadcrumbs-custom">
