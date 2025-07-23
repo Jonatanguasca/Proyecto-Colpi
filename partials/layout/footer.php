@@ -35,15 +35,13 @@
           </li>
         </ul>
       </div>
-      <div class="social-items"><a class="icon icon-md novi-icon mdi mdi-facebook"
-        href="#"></a><a class="icon icon-md novi-icon mdi mdi-twitter" href="#"></a><a
-        class="icon icon-md novi-icon mdi mdi-instagram" href="#"></a><a
-        class="icon icon-md novi-icon mdi mdi-facebook-messenger" href="#"></a><a
-        class="icon icon-md novi-icon mdi mdi-linkedin" href="#"></a><a
-        class="icon icon-md novi-icon mdi mdi-snapchat" href="#"></a>
+      <div class="social-items">
+        <a class="icon icon-md novi-icon mdi mdi-facebook" href="https://www.facebook.com/profile.php?id=100066774880361"></a>
+        <a class="icon icon-md novi-icon mdi mdi-linkedin" href="https://www.linkedin.com/company/colpinones/about/"></a>
       </div>
       <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Todos
-          los derechos reservados</span><span>.&nbsp;</span><a href="privacy-policy.html">Politica de privacidad</a>
+          los derechos reservados</span><span>.&nbsp;</span>
+          <!-- <a href="privacy-policy.html">Politica de privacidad</a> -->
       </p>
   </div>
 </footer>
