@@ -77,13 +77,13 @@
                     </li>
                   </ul>
                 </li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Acerca de Colpiñones</a>
+                <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="#">Acerca de Colpiñones</a> -->
                   <!-- RD Navbar Dropdown
                   <ul class="rd-menu rd-navbar-dropdown">
                     <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-post.php">Single post</a>
                     </li>
                   </ul>-->
-                </li>
+                <!-- </li> -->
                 <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
                     <!-- RD Navbar Dropdown ->
                     <ul class="rd-menu rd-navbar-dropdown">
