@@ -22,38 +22,55 @@
           </ul>
         </div>
       </section>
-      <br />
+      <br>
       <section class="container">
+        <h4>Contáctanos</h4>
+        <form 
+          class="rd-form rd-mailform"
+          data-form-output="form-output-global"
+          data-form-type="contact" method="post"
+          action="bat/rd-mailform.php"
+          novalidate="novalidate"
+        >
         <div class="row justify-centerrow justify-content-center align-items-center minh-100">
           <div class="col-lg-6">
-            <h4>Contáctanos</h4>
             <!-- RD Mailform-->
-            <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
-              method="post" action="bat/rd-mailform.php" novalidate="novalidate">
-              <div class="form-wrap">
-                <input class="form-input form-control-has-validation" id="contact-phone" type="tel" name="phone"
+            <div class="form-wrap">
+              <input class="form-input form-control-has-validation" id="contact-name" type="text" name="name"
                 data-constraints="@Required"><span class="form-validation"></span>
-                <label class="form-label rd-input-label" for="contact-phone">Telefono</label>
-              </div>
-              <div class="form-wrap">
-                <input class="form-input form-control-has-validation" id="contact-email" type="email" name="email"
-                  data-constraints="@Email @Required"><span class="form-validation"></span>
-                <label class="form-label rd-input-label" for="contact-email">Correo de cotizacion</label>
-              </div>
-              <div class="form-wrap">
-                <label class="form-label rd-input-label" for="address">Dirección</label>
-                <input class="form-input form-control-has-validation" id="address" type="text" name="address"
-                  data-constraints="@Required"><span class="form-validation"></span>
-              </div>
-              <!-- <div class="form-wrap">
-                <label class="form-label rd-input-label" for="contact-message">Cuéntanos qué quieres saber.... </label>
-                <textarea class="form-input form-control-has-validation form-control-last-child" id="contact-message"
-                  name="message" data-constraints="@Required"></textarea><span class="form-validation"></span>
-              </div> -->
-              <button class="button button-primary" type="submit">Enviar</button>
-            </form>
+              <label class="form-label rd-input-label" for="contact-name">Nombre</label>
+            </div>
+            <div class="form-wrap">
+              <input class="form-input form-control-has-validation" id="contact-email" type="email" name="email"
+                data-constraints="@Email @Required"><span class="form-validation"></span>
+              <label class="form-label rd-input-label" for="contact-email">Correo electrónico</label>
+            </div>
+            <div class="form-wrap">
+              <label class="form-label rd-input-label" for="contact-message">Cuéntanos qué quieres saber.... </label>
+              <textarea class="form-input form-control-has-validation form-control-last-child" id="contact-message"
+                name="message" data-constraints="@Required"></textarea><span class="form-validation"></span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="form-wrap">
+              <input class="form-input form-control-has-validation" id="contact-phone" type="tel" name="phone"
+              data-constraints="@Required"><span class="form-validation"></span>
+              <label class="form-label rd-input-label" for="contact-phone">Telefono</label>
+            </div>
+            <div class="form-wrap">
+              <input class="form-input form-control-has-validation" id="contact-email" type="email" name="email"
+                data-constraints="@Email @Required"><span class="form-validation"></span>
+              <label class="form-label rd-input-label" for="contact-email">Correo de cotizacion</label>
+            </div>
+            <div class="form-wrap">
+              <label class="form-label rd-input-label" for="address">Dirección</label>
+              <input class="form-input form-control-has-validation" id="address" type="text" name="address"
+                data-constraints="@Required"><span class="form-validation"></span>
+            </div>
           </div>
         </div>
+        <button class="button button-primary" type="submit">Enviar</button>
+        </form>
       </section>
       <br>
       <section class="section section-lg">

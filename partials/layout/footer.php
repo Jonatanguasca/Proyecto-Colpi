@@ -26,7 +26,10 @@
             </a>
           </li>
           <li class="question">
-            <a href="https://wa.me/573143525791?text=Hola,%20quiero%20más%20información!">
+            <a 
+              href="https://wa.me/573143525791?text=Hola,%20quiero%20más%20información!"
+              target=":blank"
+            >
             <span class="icon fa fa-whatsapp"></span>
             <span>
              &nbsp;&nbsp;Hablemos por whatsapp

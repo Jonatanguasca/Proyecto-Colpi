@@ -22,7 +22,7 @@
           <div class="row justify-content-lg-center">
             <div class="col-md-12 col-xl-10">
               <h1 data-caption-animate="fadeInUp" data-caption-delay="100">Estructuras Metálicas</h1><a
-                class="button button-lg button-primary" href="about.php" data-caption-animate="fadeInUp"
+                class="button button-lg button-primary" href="estructuras.php" data-caption-animate="fadeInUp"
                 data-caption-delay="450">Ver M&aacute;s</a>
             </div>
           </div>
