@@ -6,17 +6,23 @@
   position: absolute;
   list-style:  none;
   display: inline-block;
-  background: #007bff;
-  width: 3em;
+  background: #1b81e5;
+  width: calc(2em + 25px);
   margin: 0;
   transition: width 0.35s ease;
   overflow-x: hidden;
   height: fit-content;
-  padding-left: 0.5em;
+  padding: 0.5em;
   white-space: nowrap;
 
   &:hover {
      width: max-content;
+  }
+
+  &> li:first-child {
+    padding: 0 1em 0 calc(2em + 25px);
+    color: white;
+    font-weight: 600;
   }
 
   &> li > a
@@ -29,8 +35,10 @@
     transition: 0.23s ease;
     color: white;
 
-    & > i {
-      margin-right: 1rem;
+    & > img {
+      width: 25px;
+      margin-right: 1em;
+      filter: invert(100%) sepia(5%) saturate(7480%) hue-rotate(54deg) brightness(125%) contrast(118%);
     }
 
     &>p {
