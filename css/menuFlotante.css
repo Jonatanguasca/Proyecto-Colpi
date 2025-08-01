@@ -1,0 +1,44 @@
+:root {
+  interpolate-size: allow-keywords;
+}
+
+.menu {
+  position: absolute;
+  list-style:  none;
+  display: inline-block;
+  background: #007bff;
+  width: 3em;
+  margin: 0;
+  transition: width 0.35s ease;
+  overflow-x: hidden;
+  height: fit-content;
+  padding-left: 0.5em;
+  white-space: nowrap;
+
+  &:hover {
+     width: max-content;
+  }
+
+  &> li > a
+   {
+    padding: 0.5em;
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    transition: 0.23s ease;
+    color: white;
+
+    & > i {
+      margin-right: 1rem;
+    }
+
+    &>p {
+      margin: 0;
+    }
+
+    &:hover {
+      background-color: #4199f7;
+    }
+  }
+}

@@ -45,17 +45,10 @@
     </div>
   </div>
   <div class="swiper-meta">
-    <ul class="links">
-      <li><a class="icon icon-meta mdi mdi-facebook" href="#"></a></li>
-      <li><a class="icon icon-meta mdi mdi-twitter" href="#"></a></li>
-      <li><a class="icon icon-meta mdi mdi-instagram" href="#"></a></li>
-      <li><a class="icon icon-meta mdi mdi-facebook-messenger" href="#"></a></li>
-      <li><a class="icon icon-meta mdi mdi-linkedin" href="#"></a></li>
-      <li><a class="icon icon-meta mdi mdi-snapchat" href="#"></a></li>
-    </ul>
+    <?php include 'menuFlotante.php'; ?>
     <div class="contacts">
       <div class="icon mdi mdi-cellphone-iphone"></div>
-      <div class="tel"><a href="tel:#">(+57 - 1) 268 3005</a></div>
+      <div class="tel"><a href="tel:+573143525791" target=":Blank">(+57) 314 352 5791</a></div>
       <div class="request"><a href="#">LLamanos Ahora</a></div>
     </div>
     <!-- Swiper Pagination-->

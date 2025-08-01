@@ -5543,6 +5543,10 @@ html [class*=section-].section-bottom-0 {
     color: #fff
 }
 
+.cards{
+    background-color: #1e90ff;
+}
+
 .bg-gray-dark, .bg-primary, .bg-primary-dark, .bg-primary-gradient, .swiper-slide, .bg-gray-dark h1, .bg-primary h1, .bg-primary-dark h1, .bg-primary-gradient h1, .swiper-slide h1, .bg-gray-dark h2, .bg-primary h2, .bg-primary-dark h2, .bg-primary-gradient h2, .swiper-slide h2, .bg-gray-dark h3, .bg-primary h3, .bg-primary-dark h3, .bg-primary-gradient h3, .swiper-slide h3, .bg-gray-dark h4, .bg-primary h4, .bg-primary-dark h4, .bg-primary-gradient h4, .swiper-slide h4, .bg-gray-dark h5, .bg-primary h5, .bg-primary-dark h5, .bg-primary-gradient h5, .swiper-slide h5, .bg-gray-dark h6, .bg-primary h6, .bg-primary-dark h6, .bg-primary-gradient h6, .swiper-slide h6, .bg-gray-dark [class^=heading-], .bg-primary [class^=heading-], .bg-primary-dark [class^=heading-], .bg-primary-gradient [class^=heading-], .swiper-slide [class^=heading-] {
     color: #fff
 }
@@ -6709,9 +6713,10 @@ html.mobile .ui-to-top, html.tablet .ui-to-top {
     position: relative;
     display: inline-block;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.33;
-    transition: .25s
+    transition: .25s;
+    font-family: sans-serif;
 }
 
 .rd-navbar-static .rd-nav-link:hover {
@@ -8090,7 +8095,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-creative.rd-navbar-static {
-    background: 0 0
+    background: linear-gradient(180deg, black, transparent);
 }
 
 .rd-navbar-creative.rd-navbar-static .rd-navbar-nav-wrap {
@@ -8704,7 +8709,12 @@ html.rd-navbar-fixed-linked .page {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 15px
+    padding: 15px;
+    &> .menu {
+        display: none;
+    }
+
+
 }
 
 .swiper-slider-2 .swiper-meta>* {
@@ -8804,8 +8814,19 @@ html.rd-navbar-fixed-linked .page {
         pointer-events: none;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center
+        justify-content: center;
+        align-items: center;
+        
+        &> .menu {
+            left: 5vw;
+            display: inline-block;
+        }
+
+        &> .swiper-pagination {
+            position: absolute;
+            right: 5vw;
+        }
+        
     }
     .swiper-slider-2 .swiper-meta>* {
         pointer-events: auto

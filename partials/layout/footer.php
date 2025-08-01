@@ -10,9 +10,9 @@
             </a>
           </li>
           <li>
-            <a href="tel:#">
+            <a href="tel:+573143525791" target="_blank">
               <span class="icon mdi mdi-phone"></span>
-              <span>(+57-1) 268 3005</span>
+              <span>(+57) 314 352 5791</span>
             </a>
           </li>
           <li>
