@@ -45,11 +45,10 @@
     </div>
   </div>
   <div class="swiper-meta">
-    <?php include 'menuFlotante.php'; ?>
     <div class="contacts">
       <div class="icon mdi mdi-cellphone-iphone"></div>
       <div class="tel"><a href="tel:+573143525791" target=":Blank">(+57) 314 352 5791</a></div>
-      <div class="request"><a href="#">LLamanos Ahora</a></div>
+      <div class="request"><a href="#">LLámanos Ahora</a></div>
     </div>
     <!-- Swiper Pagination-->
     <div class="swiper-pagination"></div>

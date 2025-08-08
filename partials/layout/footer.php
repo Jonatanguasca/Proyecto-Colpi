@@ -1,12 +1,13 @@
- <footer class="section">
+ <?php include 'menuFlotante.php'; ?>
+<footer class="section">
   <div class="container">
       <div class="">
-        <h5 class="title">Informacion de Contacto </h5>
+        <h5 class="title">Información de Contacto </h5>
         <ul class="list-inline contact-box">
           <li>
             <a href="https://www.google.com/maps/place/COLPI%C3%91ONES+S.+A.+S/@4.619152,-74.079829,14z/data=!4m6!3m5!1s0x8e3f9978547d4889:0x9e960cc91f27caa2!8m2!3d4.6191519!4d-74.0798291!16s%2Fg%2F1ptws5l3y?hl=es&entry=ttu&g_ep=EgoyMDI1MDcxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
               <span class="icon mdi mdi-map-marker"></span>
-              <span> Cra 24 No. 23-47 Bogota DC - Colombia </spanp>
+              <span> Cra 24 No. 23-47 Bogotá DC - Colombia </spanp>
             </a>
           </li>
           <li>

@@ -6,7 +6,6 @@
 <html class="wide wow-animation" lang="es">
 <head>
   <?php include 'partials/layout/head.php'; ?>
-  <link rel="stylesheet" href="css/menuFlotante.css">
 
 </head>
 <body>

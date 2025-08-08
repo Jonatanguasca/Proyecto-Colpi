@@ -16,11 +16,11 @@
       <!-- Breadcrumbs -->
       <section class="section section-bredcrumbs"style="--bg-image: url(../images/estructuras.jpg);">
         <div class="container context-dark breadcrumb-wrapper" >
-          <h1>Construccion y cimentacion</h1>
+          <h1>Construcción y cimentación</h1>
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
-            <li>Areas de actividad</li>
-            <li class="active">Construccion y cimentacion</li>
+            <li>Áreas de actividad</li>
+            <li class="active">Construcción y cimentación</li>
           </ul>
         </div>
       </section>

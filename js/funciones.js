@@ -30,3 +30,8 @@ function cambiaImagen() {
     
 
 }
+
+ document.getElementById('formularioCalculadora').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert("ass")
+});

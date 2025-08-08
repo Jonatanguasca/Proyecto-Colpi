@@ -1,13 +1,13 @@
 
     <ul class="menu" >
         <li>
-            Mantenimiento y Fabricacion de Repuestos
+            Mantenimiento y Fabricación de Repuestos
         </li>
         <li>
             <a href="industria_minera.php">
                 <img src="images/icons/fabrica.png" alt="icono fabrica" />
                 <p>
-                    industria
+                    Industria
                 </p>
             </a>
         </li>
@@ -31,7 +31,7 @@
             <a href="construccion.php">
                 <img src="images/icons/construccion.png" alt="icono fabrica" />
                 <p>
-                    Cimentacion y Construccion
+                    Cimentación y Construcción
                 </p>
             </a>
         </li>

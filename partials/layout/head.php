@@ -13,3 +13,4 @@
   <link rel="stylesheet" href="css/style.css" id="main-styles-link">
   <link rel="stylesheet" href="css/breadcrumbs.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/menuFlotante.css">

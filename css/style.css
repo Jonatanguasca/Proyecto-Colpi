@@ -8095,7 +8095,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-creative.rd-navbar-static {
-    background: linear-gradient(180deg, black, transparent);
+    background: linear-gradient(180deg, #005db7, transparent);
 }
 
 .rd-navbar-creative.rd-navbar-static .rd-navbar-nav-wrap {

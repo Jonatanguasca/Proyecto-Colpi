@@ -37,7 +37,7 @@
                   <a class="rd-nav-link" href="index.php">Inicio</a>
                 </li>
                 <li class="rd-nav-item <?php selected("servicios") ?>">
-                  <a class="rd-nav-link" href="servicios.php">Productos y Servicios</a>
+                  <a class="rd-nav-link" href="servicios.php">Productos</a>
                   <!-- RD Navbar Dropdown-->
                   <ul class="rd-menu rd-navbar-dropdown">
                     <li class="rd-dropdown-item">
@@ -45,11 +45,11 @@
                         <u>Transmisión de potencia</u>
                       </a>
                     </li>
-                    <li class="rd-dropdown-item">
+                    <!-- <li class="rd-dropdown-item">
                       <a class="rd-dropdown-link" href="mecanizados.php">
                         <u>Mecanizados pesados</u>
                       </a>
-                    </li>
+                    </li> -->
                     <li class="rd-dropdown-item">
                       <a class="rd-dropdown-link" href="estructuras.php">
                         <u>Estructuras metálicas</u>
