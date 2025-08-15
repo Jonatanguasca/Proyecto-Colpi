@@ -131,132 +131,46 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 col-lg-4">
+            <div class="col-md-12 col-lg-8">
               <table class="table table-bordered">
                 <thead>
                   <tr>
-                    <th colspan="3">
+                    <th colspan="7">
                       Piñon ref
                     </th>
+                  </tr>
+                  <tr>
+                    <th>Dientes (Z)</th>
+                    <th>Paso (P)</th>
+                    <th>Diámetro Exterior (DE)</th>
+                    <th>Diámetro Primitivo (DP)</th>
+                    <th>Diámetro Base (DB)</th>
+                    <th>Diámetro Rodillo (DR)</th>
+                    <th>Ancho de diente (S)</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Dientes</td>
-                    <td>Z</td>
                     <td id="tDientes">12</td>
-                  </tr>
-                  <tr>
-                    <td>Paso</td>
-                    <td>P</td>
                     <td>6.350</td>
-                  </tr>
-                  <tr>
-                    <td>Diámetro Exterior</td>
-                    <td>DE</td>
                     <td>27.509</td>
-                  </tr>
-                  <tr>
-                    <td>Diámetro Primitivo</td>
-                    <td>DP</td>
                     <td>24.535</td>
-                  </tr>
-                  <tr>
-                    <td>Diámetro Base</td>
-                    <td>DB</td>
                     <td>21.233</td>
-                  </tr>
-                  <tr>
-                    <td>Ancho de diente</td>
-                    <td>s</td>
+                    <td>21.233</td>
                     <td>2.718</td>
                   </tr>
+                  </tr>
                 </tbody>
               </table>
+              <button class="btn btn-primary">Descargar plano</button>
             </div>
-            <div class="col-md-4 col-lg-4">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th colspan="3">
-                      Piñon ref
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Numero de Hileras</td>
-                    <td>F</td>
-                    <td>2 Hileras</td>
-                  </tr>
-                  <tr>
-                    <td>Ancho Total Hileras</td>
-                    <td>St</td>
-                    <td>9.119</td>
-                  </tr>
-                  <tr>
-                    <td>Espacio entre Hileras</td>
-                    <td>B</td>
-                    <td>3.683</td>
-                  </tr>
-                  <tr>
-                    <td colspan="3">
-                      Datos de Cadena
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Diámetro de Rodillo</td>
-                    <td>Ro</td>
-                    <td>3.302</td>
-                  </tr>
-                  <tr>
-                    <td>Distancia entre Caras</td>
-                    <td>W</td>
-                    <td>3.175</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <table class="table table-bordered">
-                <tbody>
-                  <tr>
-                    <td>Diametro manzana</td>
-                    <td>Dm</td>
-                    <td>0 mm</td>
-                  </tr>
-                  <tr>
-                    <td>Altura manzana</td>
-                    <td>Hm</td>
-                    <td>9.12 mm</td>
-                  </tr>
-                  <tr>
-                    <td>Perimetro manzana</td>
-                    <td>Pm</td>
-                    <td>0.0 mm</td>
-                  </tr>
-                  <tr>
-                    <td>Peso manzana</td>
-                    <td>Wm</td>
-                    <td>0.00 kg</td>
-                  </tr>
-                  <tr>
-                    <td>Diametro disco</td>
-                    <td>DE</td>
-                    <td>27.5 mm</td>
-                  </tr>
-                  <tr>
-                    <td>Ancho disco</td>
-                    <td>s</td>
-                    <td>9.12 mm</td>
-                  </tr>
-                  <tr>
-                    <td>Peso disco</td>
-                    <td>WD</td>
-                    <td>0.04 Kg</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="col-md-12 col-lg-4">
+              <p>Vista previa</p>
+              <div style="height: 100%;">
+                <canvas id="canvasPlano" style="border:1px solid #000000;height: 100%; width: 100%;">
+                  Your browser does not support the HTML5 canvas tag.
+                </canvas>
+              </div>
             </div>
           </div>
               <!-- <div class="form-wrap">
@@ -268,21 +182,8 @@
                 </select>
 
               </div> -->
-          <div class="row">
-            <h2>Vista previa</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-12 col-lg-8">
-              <div style="height: 80%;">
-                <canvas id="canvasPlano" style="border:1px solid #000000;height: 100%; width: 100%;">
-                  Your browser does not support the HTML5 canvas tag.
-                </canvas>
-              </div>
-            </div>
-          </div>
           </div>
         </div>
-            
       </section>
       <?php include 'partials/layout/footer.php'; ?>
     </div>

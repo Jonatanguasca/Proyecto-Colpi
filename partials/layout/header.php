@@ -57,7 +57,7 @@
                     </li>
                   </ul>
                 </li>
-                <li class="rd-nav-item <?php selected("areas") ?>"><a class="rd-nav-link" href="index.php">Sectores de Industriales</a>
+                <li class="rd-nav-item <?php selected("areas") ?>"><a class="rd-nav-link" href="sectores.php">Sectores Industriales</a>
                   <!-- RD Navbar Dropdown-->
                   <ul class="rd-menu rd-navbar-dropdown">
                     <li class="rd-dropdown-item">

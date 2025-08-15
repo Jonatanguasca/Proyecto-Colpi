@@ -14,7 +14,7 @@
       <?php include 'partials/layout/header.php'; ?>
       <!-- Breadcrumbs -->
       <section class="section section-bredcrumbs">
-        <div class="container context-dark breadcrumb-wrapper" style="display: none;">
+        <div class="container context-dark breadcrumb-wrapper">
           <h1>Contactanos</h1>
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
