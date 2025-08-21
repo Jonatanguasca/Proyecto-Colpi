@@ -34,4 +34,80 @@ function cambiaImagen() {
  document.getElementById('formularioCalculadora').addEventListener('submit', function(e) {
     e.preventDefault();
     alert("ass")
+    const cadena = document.getElementById('tipoCadena').value
+    const numeroDientes = document.getElementById('num_dientes').value
+    const numeroHileras = document.getElementById('num_hileras').value
+    const tipoPinion = document.getElementById('tipo_pinion').value
+    
+    
+    let pinonRef = `${cadena} ${numeroHileras}${tipoPinion} ${numeroDientes}`; 
+    let paso = valores[cadena].paso * 25.4;
+    let alpa = ( 180 / numeroDientes );
+    let diametroExterior = paso * (0.6 + (1 / Math.tan(alpa * Math.PI / 180)));
+    let diametroPrimitivo = paso / Math.sin(alpa * Math.PI / 180);
+    let diametroRodillo = valores[cadena].rollerDia * 25.4;
+    let diamteroBase = diametroPrimitivo - diametroRodillo;
+    console.log('e: ', {
+        pinonRef,
+        diametroExterior,
+        diametroPrimitivo,
+        diamteroBase,
+        diametroRodillo,
+        paso,
+        numeroDientes,
+        cadena,
+        alpa
+    });
+
 });
+
+const valores = {
+    25: {
+        paso: 0.250,
+        rollerDia: 0.130,
+    },
+    35: {
+        paso: 0.375,
+        rollerDia: 0.200,
+    },
+    41: {
+        paso: 0.500,
+        rollerDia: 0.306,
+    },
+    40: {
+        paso: 0.500,
+        rollerDia: 0.312,
+    },
+    50: {
+        paso: 0.625,
+        rollerDia: 0.400,
+    },
+    60: {
+        paso: 0.750,
+        rollerDia: 0.469,
+    },
+    80: {
+        paso: 1.000,
+        rollerDia: 0.625,
+    },
+    100: {
+        paso: 1.250,
+        rollerDia: 0.750,
+    },
+    120: {
+        paso: 1.500,
+        rollerDia: 0.875,
+    },
+    140: {
+        paso: 1.750,
+        rollerDia: 1.000,
+    },
+    160: {
+        paso: 2.000,
+        rollerDia: 1.125,
+    },
+    180: {
+        paso: 2.250,
+        rollerDia: 1.406,
+    },
+}

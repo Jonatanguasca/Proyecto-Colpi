@@ -20,7 +20,8 @@
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="sectores.php">Sectores industriales</a></li>
-            <li class="active">Brocas</li>
+            <li><a href="construccion.php">Cimentación y construcción</a></li>
+            <li class="active"><a href="brocas.php">Brocas</a></li>
           </ul>
         </div>
       </section>
@@ -37,7 +38,7 @@
               <h4>Broca estándar roca (Standard rock auger)</h4>
               <h4>Broca cónica roca (Conical rock auger)</h4>
               <p class="subtitle heading-5">
-                CARACTERISTICAS DE FABRICACION
+                Características de fabricación
               </p>
               <ul>
                 <li>Broca estándar roca (Standard rock auger)</li>

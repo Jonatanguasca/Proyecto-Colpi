@@ -19,8 +19,8 @@
           <h1>Industria Minera</h1>
           <ul class="breadcrumbs-custom">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Areas de actividad</a></li>
-            <li class="active">Industria minera</li>
+            <li><a href="sectores.php">Sectores industriales</a></li>
+            <li class="active"><a href="industria_minera">Industria minera</a></li>
           </ul>
         </div>
       </section>

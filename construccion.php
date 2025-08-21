@@ -6,6 +6,7 @@
 <html class="wide wow-animation" lang="es">
   <head>
     <?php include 'partials/layout/head.php'; ?>
+    <link rel="stylesheet" href="css/construccion.css">
   </head>
 
   <body>
@@ -14,13 +15,13 @@
     <div class="page">
       <?php include 'partials/layout/header.php'; ?>
       <!-- Breadcrumbs -->
-      <section class="section section-bredcrumbs"style="--bg-image: url(../images/estructuras.jpg);">
+      <section class="section section-bredcrumbs">
         <div class="container context-dark breadcrumb-wrapper" >
-          <h1>Cimentación y construcción</h1>
+          <h1>CIMENTACIÓN & CONSTRUCCIÓN</h1>
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="sectores.php">Sectores industriales</a></li>
-            <li class="active">Cimentación y construcción</li>
+            <li class="active"><a href="construccion.php">Cimentación y construcción</a></li>
           </ul>
         </div>
       </section>
@@ -43,9 +44,8 @@
               </video>             
                 <!-- <video  src="./videos/video.mp4" title="presentacion piñones" autoplay loop mute></video> -->
             </div>
-            <div class="col-sm-12 col-xl-7">                
-              <h2>CIMENTACIÓN & CONSTRUCCIÓN</h2>
-              <p class="subtitle heading-5">Diseños y fabricaciones especiales tipo liviano o tipo pesado, según la necesidad de la obra.</p>
+            <div class="col-sm-12 col-xl-7 principal_content">                
+              <p class="subtitle heading-3">Diseños y fabricaciones especiales tipo liviano o tipo pesado, según la necesidad de la obra.</p>
               <ul>
                 <li><a href="baldes.php">Baldes</a></li>
                 <li><a href="brocas.php">Brocas</a></li>

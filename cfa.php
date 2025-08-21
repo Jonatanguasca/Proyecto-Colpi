@@ -20,7 +20,8 @@
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="sectores.php">Sectores industriales</a></li>
-            <li class="active">CFA (continuous flight auger)</li>
+            <li><a href="construccion.php">Cimentación y construcción</a></li>
+            <li class="active"><a href="cfa.php">CFA (continuous flight auger)</a></li>
           </ul>
         </div>
       </section>

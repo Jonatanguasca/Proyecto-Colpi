@@ -18,7 +18,7 @@
           <h1>Contactanos</h1>
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
-            <li class="active">Contactanos</li>
+            <li class="active"><a href="contacto.php">Contactanos</a></li>
           </ul>
         </div>
       </section>

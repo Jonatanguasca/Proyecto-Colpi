@@ -22,7 +22,7 @@
           <h1>Servicios</h1>
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
-            <li class="active">Servicios</li>
+            <li class="active"> <a href="servicios.php">Servicios </a></li>
           </ul>
         </div>
       </section>

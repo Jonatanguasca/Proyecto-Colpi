@@ -5,11 +5,12 @@
   $data =[  
     "pinon" => ["A","B","C"],
     "cadena" => [ 
-      "25","35", "41", "40", "50", "60", "80", "100", "120", "140", "160", "180", "200", "240", 
-      "60H", "80H", "100H", "120H", "140H", "160H", "180H", "200H", "2040", "2050", "2060", "2080",
-      "2042", "2052", "2062", "2082", "03B", "04B", "05B", "06B", "08B", "10B", "12B", "16B", "20B", 
-      "24B", "28B", "32B", "Bike Der", "Bike Wder", "420", "425", "428", "520", "525", "530", "630",
-      "C102B", "C188", "S102B"
+      "25","35", "41", "40", "50", "60", "80", "100", "120", "140", "160", "180", 
+      // "200", "240", 
+      // "60H", "80H", "100H", "120H", "140H", "160H", "180H", "200H", "2040", "2050", "2060", "2080",
+      // "2042", "2052", "2062", "2082", "03B", "04B", "05B", "06B", "08B", "10B", "12B", "16B", "20B", 
+      // "24B", "28B", "32B", "Bike Der", "Bike Wder", "420", "425", "428", "520", "525", "530", "630",
+      // "C102B", "C188", "S102B"
     ],
     "tipo" => ['Estándar','Personalizada']
   ];
@@ -44,7 +45,7 @@
           </div>
           <form id="formularioCalculadora" class="rd-form form-lg rd-mailform">
             <div class="row">
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Tipo</label>
                   <select class="form-input" id="tipo" name="tipo">
@@ -56,6 +57,8 @@
                     ?>
                   </select>
                 </div>
+              </div>
+              <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Tipo de cadena</label>
                   <select class="form-input" id="tipoCadena" name="tipoCadena">
@@ -66,9 +69,9 @@
                       }
                     ?>
                   </select>
-                </div>
+                </div>  
               </div>
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Numero de hileras</label>
                   <input 
@@ -85,6 +88,8 @@
                     El nombre es obligatorio.
                   </div>
                 </div>
+              </div>
+              <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Numero de dientes</label>
                   <input
@@ -99,10 +104,10 @@
                   >
                 </div>
               </div>
-              <div class="col-sm-12 col-lg-4 d-flex flex-column justify-content-between">
+              <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Tipo de piñon</label>
-                  <select class="form-input" id="tipo" type="email" name="tipo">
+                  <select class="form-input" id="tipo_pinion" type="email" name="tipo_pinion">
                     <option value="">...Tipo...</option>
                     <?php
                       foreach ($data["pinon"] as $pinon) {
@@ -110,8 +115,9 @@
                       }
                     ?>
                   </select>
-
                 </div>
+              </div>
+              <div class="col-sm-12 col-lg-2 d-flex flex-column justify-content-end">
                 <button class="button button-lg button-round button-block button-primary" type="submit">Generar plano</button>
               </div>
             </div>

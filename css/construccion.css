@@ -1,0 +1,23 @@
+.principal_content {
+    &>p {
+        margin: .5em 0;
+    }
+
+    &>ul>li {
+        width: fit-content;
+        margin: 1.25em 0;
+        
+        & > a {
+            background-color: #1b81e5;
+            padding: 0.5em 1em;
+            border-radius: 20px;
+            cursor: pointer;
+            color: white;
+            font-weight: 700;
+
+            &:hover {
+                background-color: #4098f0;
+            }
+        }
+    }
+}

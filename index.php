@@ -1,5 +1,5 @@
 <?php 
-  $page_title = "Contacto - Colpiñones";
+  $page_title = "Inicio - Colpiñones";
   $current_page = "inicio";
 ?>
 <!DOCTYPE html>

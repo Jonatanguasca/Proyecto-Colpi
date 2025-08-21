@@ -20,7 +20,8 @@
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="sectores.php">Sectores industriales</a></li>
-            <li class="active">Cucharas (Grab)</li>
+            <li><a href="construccion.php">Cimentación y construcción</a></li>
+            <li class="active"><a href="cucharas.php">Cucharas (Grab)</a></li>
           </ul>
         </div>
       </section>
@@ -28,9 +29,7 @@
       <section class="section section-lg bg-default">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-3">  
-              <img style="height: 300px;" src="images/productos/cuchara.jpg" alt="imagen de un balde">
-            </div>
+            <img style="height: 300px;" src="images/productos/cuchara.jpg" alt="imagen de un balde">
             <div class="col-sm-12 col-xl-6">
               <h4>Cuchara mecánica</h4>
               <h4>Cuchara hidráulica</h4>

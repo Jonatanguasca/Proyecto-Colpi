@@ -21,7 +21,7 @@
           <ul class="breadcrumbs-custom">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="servicios.php">Servicios</a></li>
-            <li class="active">Estructuras metálicas</li>
+            <li class="active"><a href="estructuras.php">Estructuras metálicas</a></li>
           </ul>
         </div>
       </section>
