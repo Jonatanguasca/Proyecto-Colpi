@@ -29,13 +29,15 @@
       <section class="section section-lg bg-default">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-6">  
+            <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center">  
               <img style="height: 250px;" src="images/productos/broca_1.jpg" alt="imagen de un balde">
+              <h4>Broca estándar suelo (Soil auger)</h4>
+            </div>
+            <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center">  
               <img style="height: 250px;" src="images/productos/broca_2.png" alt="imagen de un balde">
+              <h4>Broca estándar roca (Standard rock auger)</h4>
             </div>
             <div class="col-sm-12 col-xl-6">
-              <h4>Broca estándar suelo (Soil auger)</h4>
-              <h4>Broca estándar roca (Standard rock auger)</h4>
               <h4>Broca cónica roca (Conical rock auger)</h4>
               <p class="subtitle heading-5">
                 Características de fabricación
