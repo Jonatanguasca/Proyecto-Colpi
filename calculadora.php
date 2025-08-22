@@ -19,6 +19,8 @@
 <html class="wide wow-animation" lang="es">
   <head>
     <?php include 'partials/layout/head.php'; ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/calculadora.css">
   </head>
   <body>
     <?php include 'partials/preloader.php'; ?>
@@ -48,7 +50,7 @@
               <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Tipo</label>
-                  <select class="form-input" id="tipo" name="tipo">
+                  <select class="form-input" id="tipo" name="tipo" required>
                     <option value="">...Tipo...</option>
                     <?php
                       foreach ($data["tipo"] as $tipo) {
@@ -61,7 +63,7 @@
               <div class="col-sm-12 col-lg-2">
                 <div class="form-wrap">
                   <label>Tipo de cadena</label>
-                  <select class="form-input" id="tipoCadena" name="tipoCadena">
+                  <select class="form-input" id="tipoCadena" name="tipoCadena" required>
                     <option value="">...Tipo...</option>
                     <?php
                       foreach ($data["cadena"] as $cadena) {
@@ -82,6 +84,7 @@
                     max="5"
                     value="1"
                     name="num_hileras"
+                    required
                     data-constraints="@Required"
                   >
                   <div class="invalid-feedback">
@@ -123,62 +126,61 @@
             </div>
           </form>
           <br>
-          <div class="row">
-            <h2>Datos del Piñón</h2>
+          <div class="loader__contener" style="display: none">
+            <span class="loader"></span>
           </div>
-          <div class="row d-flex flex-row justify-content-between">
-            <div>
-              <p>Tipo de construcción</p>
-              <h3>Entero 1 pieza</h3>
+          <div id="tabla_datos" style="display:none; flex-direction: column;">
+            <div class="row">
+              <h2>Datos del Piñón</h2>
             </div>
-            <div>
-              <p>Ancho Total</p>
-              <h3>18.24</h3>
+            <div class="row d-flex flex-row justify-content-between" style="margin-top:1.5em">
+              <div>
+                <p>Referencia del piñon</p>
+                <h3 id="d_pinion_ref"></h3>
+              </div>
+              <div>
+                <p>Ancho de diente (S)</p>
+                <h3 id="d_ancho_diente"></h3>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 col-lg-8">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th colspan="7">
-                      Piñon ref
-                    </th>
-                  </tr>
-                  <tr>
-                    <th>Dientes (Z)</th>
-                    <th>Paso (P)</th>
-                    <th>Diámetro Exterior (DE)</th>
-                    <th>Diámetro Primitivo (DP)</th>
-                    <th>Diámetro Base (DB)</th>
-                    <th>Diámetro Rodillo (DR)</th>
-                    <th>Ancho de diente (S)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td id="tDientes">12</td>
-                    <td>6.350</td>
-                    <td>27.509</td>
-                    <td>24.535</td>
-                    <td>21.233</td>
-                    <td>21.233</td>
-                    <td>2.718</td>
-                  </tr>
-                  </tr>
-                </tbody>
-              </table>
-              <button class="btn btn-primary">Descargar plano</button>
-            </div>
-            <div class="col-md-12 col-lg-4">
-              <p>Vista previa</p>
-              <div style="height: 100%;">
-                <canvas id="canvasPlano" style="border:1px solid #000000;height: 100%; width: 100%;">
-                  Your browser does not support the HTML5 canvas tag.
-                </canvas>
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Dientes (Z)</th>
+                      <th>Paso (P)</th>
+                      <th>Diámetro Exterior (DE)</th>
+                      <th>Diámetro Primitivo (DP)</th>
+                      <th>Diámetro Base (DB)</th>
+                      <th>Diámetro Rodillo (DR)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td id="d_dientes"></td>
+                      <td id="d_paso" ></td>
+                      <td id="d_diametro_exterior" ></td>
+                      <td id="d_diametro_primitivo" ></td>
+                      <td id="d_diametro_base" ></td>
+                      <td id="d_diametro_rodillo" ></td>
+                    </tr>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- <button class="btn btn-primary">Descargar plano</button> -->
+              </div>
+              <div class="col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center image_content">
+                <p>Vista previa</p>
+                <div style="height: 100%;">
+                  <canvas id="canvasPlano" style="border:1px solid #000000;height: 100%; width: 100%;">
+                    Your browser does not support the HTML5 canvas tag.
+                  </canvas>
+                </div>
               </div>
             </div>
           </div>
+          <button id="download_button" class="btn btn-primary" onclick="descargarPDF()" style="display:none">Descargar PDF</button>
               <!-- <div class="form-wrap">
                 <label>1.Selecciona el material</label>
                 <select class="form-input" id="material" type="email" name="material">
